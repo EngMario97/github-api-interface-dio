@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const ResetCSS = createGlobalStyle`
+export default createGlobalStyle`
   /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 
 /* Reset box-model and set borders */
@@ -39,6 +39,9 @@ html {
 body {
   margin: 0;
   font-family: roboto,sans-serif;
+  background-color: ${(props) => props.theme.color.background};
+  color: ${(props) => props.theme.color.text};
+}
 }
 
 /**

@@ -20,7 +20,7 @@ const Header = () => {
           onChange={(event) => setUsernameForSearch(event.target.value)}
         />
         <button type="submit" onClick={submitGetUser}>
-          <span>Buscar</span>
+          <span>SEARCH</span>
         </button>
       </S.Wrapper>
     </header>
