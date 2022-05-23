@@ -18,6 +18,8 @@ We will create an application using the github public api.
 
 https://github-interface-dio.netlify.app/
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9941f4b8-097c-4206-979d-1cb7207f5283/deploy-status)](https://app.netlify.com/sites/github-interface-dio/deploys)
+
 ### Libraries used
 
 - [axios](https://www.npmjs.com/package/axios)
